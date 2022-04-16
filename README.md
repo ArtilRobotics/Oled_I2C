@@ -1,3 +1,111 @@
 # Oled_I2C
 Ejemplo de arduino para importar de imagenes jpg, png a pantalla Oled
-Hola soy Jhon
+ 
+2
+ 
+
+ 
+Probar en código que tanto se puede animar un rostro en este tipo de
+
+pantallas.
+
+Para poder probar la OLED 128x32 es necesario instalar las siguientes librerías
+
+de Adafruit
+ ![img1]()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+En la opción de ejemplos se puede probar la OLED
+ 
+3
+ 
+
+ 
+Tener en cuenta que si se trata de una OLED 128x64 o 128x32 se puede
+
+cambiar unos aspectos de la programación de la librería dependiendo el caso
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+En lo subrayado se encuentra para una OLED 128x64 si se trabajase con una
+
+OLED 128x32 se cambia los siguientes aspectos.
+
+64 por 32 y el 3D por 3C
+
+Animar la cara en mapa de bits
+
+Link: https://diyusthad.com/image2cpp
+ 
+4 
+5
+
+1. Se selecciona la imagen a convertir en mapa de bits
+
+2. Configuramos las medidas de la OLED (128x32 a 128x64), y se
+
+configura su centrado como en la imagen
+
+3. Visualización previa
+
+4. Se selecciona la opción del Arduino code y generan el código y ese
+
+código lo pegan en la siguiente programación
+
+#include <Wire.h>
+
+#include <Adafruit_GFX.h>
+
+#include <Adafruit_SSD1306.h>
+
+#define OLED_RESET 4
+
+Adafruit_SSD1306 display(128, 32, &Wire, OLED_RESET);
+
+const unsigned char myBitmap1 [] PROGMEM = { aqui se pega el mapa
+
+de bits generados }
+
+void setup(){
+
+display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
+
+
+}
+
+
+void loop() {
+
+display.clearDisplay(); //for Clearing the display
+
+display.drawBitmap(0, 0, myBitmap1, 128, 32, WHITE);
+
+display.display();
+
+delay(1500);
+
+}
