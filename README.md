@@ -12,7 +12,7 @@ pantallas.
 Para poder probar la OLED 128x32 es necesario instalar las siguientes librerías
 
 de Adafruit
- ![img1]()
+ ![img1](https://github.com/ArtilRobotics/Oled_I2C/blob/main/Images/Libreria%20Arduino%20OLED.jpg)
 
 
 
