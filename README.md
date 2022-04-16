@@ -76,36 +76,10 @@ configura su centrado como en la imagen
 
 código lo pegan en la siguiente programación
 
-#include <Wire.h>
-
-#include <Adafruit_GFX.h>
-
-#include <Adafruit_SSD1306.h>
-
-#define OLED_RESET 4
-
+'''
 Adafruit_SSD1306 display(128, 32, &Wire, OLED_RESET);
-
-const unsigned char myBitmap1 [] PROGMEM = { aqui se pega el mapa
-
-de bits generados }
-
-void setup(){
-
+'''
+Y cambiar la C por la D
+'''
 display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
-
-
-}
-
-
-void loop() {
-
-display.clearDisplay(); //for Clearing the display
-
-display.drawBitmap(0, 0, myBitmap1, 128, 32, WHITE);
-
-display.display();
-
-delay(1500);
-
-}
+'''
