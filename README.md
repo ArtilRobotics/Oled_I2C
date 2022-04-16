@@ -1,5 +1,5 @@
 # Oled_I2C 
-Ejemplo de arduino para importar de imagenes jpg, png a pantalla Oled, hola soy ronny
+Ejemplo de arduino para importar de imagenes jpg, png a pantalla Oled,
  
 2
  
