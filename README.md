@@ -76,10 +76,10 @@ configura su centrado como en la imagen
 
 código lo pegan en la siguiente programación
 
-'''
+``` 
 Adafruit_SSD1306 display(128, 32, &Wire, OLED_RESET);
-'''
+``` 
 Y cambiar la C por la D
-'''
+``` 
 display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
-'''
+``` 
