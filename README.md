@@ -1,19 +1,6 @@
-<<<<<<< HEAD
 # Oled_I2C
 ## Ejemplo de arduino para importar de imagenes jpg, png a pantalla Oled
 ### Probar en código que tanto se puede animar un rostro en este tipo de pantallas.
-=======
-# Oled_I2C 
-Ejemplo de arduino para importar de imagenes jpg, png a pantalla Oled,
- 
-2
- 
-
- 
-Probar en código que tanto se puede animar un rostro en este tipo de
-
-pantallas.
->>>>>>> 23485bb15f5a60aef1e00232864b97a03d910af2
 
 Para poder probar la OLED 128x32 es necesario instalar las siguientes librerías
 
