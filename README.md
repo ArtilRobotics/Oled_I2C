@@ -5,14 +5,14 @@
 Para poder probar la OLED 128x32 es necesario instalar las siguientes librerías
 
 de Adafruit
- ![img1](https://github.com/ArtilRobotics/Oled_I2C/blob/main/Images/Libreria%20Arduino%20OLED.jpg)
+ ![img1](https://github.com/ArtilRobotics/Oled_I2C/blob/main/Images/Libreria Arduino OLED.jpg)
 
 En la opción de ejemplos se puede probar la OLED
  
- ![img2]()
+ ![img2](https://github.com/ArtilRobotics/Oled_I2C/Images/Ejemplo de Oled.jpg)
  
 Tener en cuenta que si se trata de una OLED 128x64 o 128x32 se puede cambiar unos aspectos de la programación de la librería dependiendo el caso
-![img3]()
+![img3](https://github.com/ArtilRobotics/Oled_I2C/blob/main/Images/3. Cambio Libreria.jpg)
 
 En lo subrayado se encuentra para una OLED 128x64 si se trabajase con una OLED 128x32 se cambia los siguientes aspectos.
 
@@ -22,8 +22,8 @@ Animar la cara en mapa de bits
 
 Link: https://diyusthad.com/image2cpp
  
-![img4]()
-![img5]()
+![img4](https://github.com/ArtilRobotics/Oled_I2C/blob/main/Images/4. BMP configuracion.jpg)
+![img5](https://github.com/ArtilRobotics/Oled_I2C/blob/main/Images/5. BMP configuracion.jpg)
 
 1. Se selecciona la imagen a convertir en mapa de bits
 
