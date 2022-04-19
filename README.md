@@ -9,7 +9,7 @@ de Adafruit
 
 En la opción de ejemplos se puede probar la OLED
  
- ![img2](https://github.com/ArtilRobotics/Oled_I2C/Images/Ejemplo%20de%20Oled.jpg)
+ ![img2](https://github.com/ArtilRobotics/Oled_I2C/blob/main/Images/Ejemplo%20de%20Oled.jpg)
  
 Tener en cuenta que si se trata de una OLED 128x64 o 128x32 se puede cambiar unos aspectos de la programación de la librería dependiendo el caso
 ![img3](https://github.com/ArtilRobotics/Oled_I2C/blob/main/Images/3.%20Cambio%20Libreria.jpg)
